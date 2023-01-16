@@ -6,7 +6,7 @@
     <groupId>com.halfism</groupId>
     <artifactId>darwin-framework</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>darwin-framework</name>
     <description>darwin-framework, based on spring-boot2, fully responsive background management framework</description>
     <url>https://github.com/halfism/darwin-framework</url>
@@ -52,6 +52,7 @@
 
     <modules>
 
+        <module>darwin-starter-parent</module>
     </modules>
 
     <!--<dependencyManagement>
