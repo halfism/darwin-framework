@@ -53,6 +53,9 @@
     <modules>
 
         <module>darwin-starter-parent</module>
+        <module>darwin-starter-core</module>
+        <module>darwin-starter-log</module>
+        <module>darwin-starter-common</module>
     </modules>
 
     <!--<dependencyManagement>
@@ -79,6 +82,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
@@ -220,6 +224,10 @@
                     </resource>
                 </resources>
                 <plugins>
+                    <plugin>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-maven-plugin</artifactId>
+                    </plugin>
                     <!-- compiler -->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
