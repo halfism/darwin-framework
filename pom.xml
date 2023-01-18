@@ -56,6 +56,7 @@
         <module>darwin-starter-core</module>
         <module>darwin-starter-log</module>
         <module>darwin-starter-common</module>
+        <module>darwin-starter-web</module>
     </modules>
 
     <!--<dependencyManagement>
