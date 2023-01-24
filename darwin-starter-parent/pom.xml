@@ -13,7 +13,9 @@
 
 
     <dependencyManagement>
-        <dependencies></dependencies>
+        <dependencies>
+
+        </dependencies>
     </dependencyManagement>
 
 
