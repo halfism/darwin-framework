@@ -51,7 +51,6 @@
     </properties>
 
     <modules>
-
         <module>darwin-starter-parent</module>
         <module>darwin-starter-core</module>
         <module>darwin-starter-log</module>
