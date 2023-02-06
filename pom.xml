@@ -58,6 +58,7 @@
         <module>darwin-starter-web</module>
         <module>darwin-starter-cache</module>
         <module>darwin-starter-redis</module>
+        <module>darwin-starter</module>
     </modules>
 
     <!--<dependencyManagement>
