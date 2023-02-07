@@ -9,7 +9,10 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>darwin-starter</artifactId>
+    <artifactId>darwin-starters</artifactId>
+    <packaging>pom</packaging>
+    <name>Darwin Framework Starters</name>
+    <description>Darwin Framework Starters</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
