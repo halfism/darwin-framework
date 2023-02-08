@@ -54,6 +54,7 @@
         <module>darwin-starters</module>
         <module>darwin-docs</module>
         <module>darwin-examples</module>
+        <module>darwin-dependencies</module>
     </modules>
 
     <!--<dependencyManagement>
