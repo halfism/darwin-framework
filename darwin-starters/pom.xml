@@ -20,4 +20,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <modules>
+        <module>darwin-starter-cache</module>
+        <module>darwin-starter-common</module>
+        <module>darwin-starter-core</module>
+        <module>darwin-starter-log</module>
+        <module>darwin-starter-parent</module>
+        <module>darwin-starter-redis</module>
+        <module>darwin-starter-web</module>
+    </modules>
+
 </project>
