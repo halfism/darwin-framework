@@ -5,30 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.halfism</groupId>
-        <artifactId>darwin-framework</artifactId>
+        <artifactId>darwin-starters</artifactId>
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>darwin-starters</artifactId>
-    <packaging>pom</packaging>
-    <name>Darwin Framework Starters</name>
-    <description>Darwin Framework Starters</description>
+    <artifactId>darwin-starter-rabbitmq</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <modules>
-        <module>darwin-starter-cache</module>
-        <module>darwin-starter-common</module>
-        <module>darwin-starter-core</module>
-        <module>darwin-starter-log</module>
-        <module>darwin-starter-parent</module>
-        <module>darwin-starter-redis</module>
-        <module>darwin-starter-web</module>
-        <module>darwin-starter-rabbitmq</module>
-    </modules>
 
 </project>
