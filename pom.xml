@@ -63,12 +63,6 @@
         <module>darwin-dependencies</module>
     </modules>
 
-    <!--<dependencyManagement>
-        <dependencies>
-
-        </dependencies>
-    </dependencyManagement>-->
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
